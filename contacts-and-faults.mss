@@ -45,6 +45,12 @@
   [fgdc_key="1.1.3"] {
     line-dasharray: @approximate-dash;
   }
+  
+  /* Contact—Identity and existence certain, location 
+		concealed */
+  [fgdc_key="1.1.7"] {
+    line-dasharray: @concealed-dash;
+  }
 
 // >>>>>>>>>>>>>>>>>>>>>>>>> FAULTS <<<<<<<<<<<<<<<<<<<<<<<<<< //  
   /* Fault (generic; vertical, subvertical, or high-angle; or unknown or 
