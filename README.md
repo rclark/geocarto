@@ -22,8 +22,9 @@ The `svg` folder contains .svg files that provide line-decoration markers and st
 Key | Name | Notes
 --- | --- | --- 
 1.1.1 | Contact | 
-1.1.2 | Approximate contact | 
-1.1.3 | Concealed contact |
+1.1.2 | Questionable contact | 
+1.1.3 | Approximate contact | 
+1.1.7 | Concealed contact | 
 
 ### Section 2: Faults
 
@@ -38,7 +39,7 @@ Key | Name | Notes
 2.8.1 | Thrust fault (1st option) | filled triangle decoration
 2.8.3 | Approximate thrust fault (1st option) | filled triangle decoration
 2.8.7 | Concealed thrust fault (1st option) | filled triangle decoration
-2.10.1 | Detachment fault | double hatch decoration
+2.10.1 | Detachment fault | ![double hatch decoration](https://raw.github.com/rclark/geocarto/master/svg/2.10.1.svg)
 2.10.3 | Approximate detachment fault | double hatch decoration
 2.10.7 | Concealed detachment fault | double hatch decoration
 2.10.33 | Listric fault | single hatch decoration
@@ -64,7 +65,9 @@ _nothing yet_
 
 Key | Name | Notes
 --- | --- | --- 
+6.1 | Horizontal bedding | 
 6.2 | Bedding | classic strike-and-dip
+6.3 | Vertical bedding | 
 6.13 | Bedding with top known | strike-and-dip with ball on the end
 6.33 | Approximate bedding | dashed strike-and-dip
 
@@ -73,6 +76,8 @@ Key | Name | Notes
 Key | Name | Notes
 --- | --- | --- 
 7.2 | Cleavage | 
+7.14 | Disjunctive, spaced cleavage | 
+7.20 | Symmetric crenulation clevage | 
 7.26 | S-shaped asymmetric cleavage | 
 
 ### Section 8: Foliation
@@ -91,10 +96,12 @@ Key | Name | Notes
 9.1 | Generic lineation (1st option) | black arrow
 9.2 | Generic lineation (2nd option) | hollow arrow
 9.9 | Parting lineation | solid arrow with double hash
-9.17 | Slickenline or fault striation | 
+9.17 | Slickenline or fault striation (1st) | 
+9.18 | Slickenline or fault striation (2nd) | 
 9.25 | Aligned-object lineation |
 9.121 | Symmetric minor fold hinge (1st) | 
 9.122 | Symmetric minor fold hinge (2nd) | 
+9.123 | Horizontal symmetric minor fold hinge | 
 9.133 | Crenulation lineation (1st) | 
 
 ### So far so good...
