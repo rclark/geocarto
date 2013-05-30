@@ -39,7 +39,7 @@ Key | Name | Notes
 2.8.1 | Thrust fault (1st option) | filled triangle decoration
 2.8.3 | Approximate thrust fault (1st option) | filled triangle decoration
 2.8.7 | Concealed thrust fault (1st option) | filled triangle decoration
-2.10.1 | Detachment fault | <embed src="https://raw.github.com/rclark/geocarto/master/svg/2.10.1.svg" type="image/svg+xml" />
+2.10.1 | Detachment fault | <object data="https://raw.github.com/rclark/geocarto/master/svg/2.10.1.svg" type="image/svg+xml"></object>
 2.10.3 | Approximate detachment fault | double hatch decoration
 2.10.7 | Concealed detachment fault | double hatch decoration
 2.10.33 | Listric fault | single hatch decoration
