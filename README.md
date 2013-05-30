@@ -7,13 +7,35 @@
 
 This is useful if you want to make geologic maps in TileMill, which is useful if you think geologic maps should be pretty and online. I tried to be as true to the spec as possible, but its hard to be precise about dimensions in terms like "mm" when you're dealing with a variable-zoom map.
 
-There are three .mss files: one for polygons, one for lines, and one for points. 
-
-- `geologic-units` is an example of symbolizing polygons by giving them a color based on the geologic unit label
-- `contacts-and-faults` is an attempt to (eventually) exhaustively define symbols for lines in the FGDC cartographic standard. Notice that the .mss defines the properties of lines themselves, while line-decorations are represented by .svg markers.
-- `structure-points` is the beginning of symbology for structural measurements. This is pretty straightforward, assuming .svg files are present
-
 The `svg` folder contains .svg files that provide line-decoration markers and structural symbols. Notice that the files are named according to their respective FGDC symbol identifier.
+
+## To Use this in TileMill:
+
+1. __Install [Node.js](http://nodejs.org/download/)__
+2. __Download [TileMill](http://www.mapbox.com/tilemill/)__
+3. __Get some geologic map data__ into a format that TileMill can read. This includes ESRI Shapefiles, KML, GeoJSON, GeoTIFF, PostGIS, CSV, and SQLite. 
+    - The one requirement presently is that your map data needs to have a "fgdc_key" column. This column should contain the FGDC symbol identifiers such as "1.1.1" for an accurate contact (solid black line). Aside from that, it doesn't matter how your data is structured.
+4. __Clone this repository__ into the right place. Generally TileMill makes a "MapBox" directory in your "Documents" folder (on OSX and Windows, at least). Inside that directory is a "project" one. This is where your various TileMill projects live. Clone this repository into that `project` directory. For example, on OSX:
+
+        cd /Users/ryan/Documents/MapBox/project
+        git clone https://github.com/rclark/geocarto.git
+        
+5. __Setup a Project__ by running `node build-project.js`
+6. __Open TileMill__ and open there should be a "FGDC Symbols" project.
+7. __Add your data__ to the project. It is important that you give your layers appropriate class names.
+    - Give your lines the class name `geolines`
+    - Give your points the class name `structurepoints`
+    - Give your polygons the class name `geopolys`
+    
+*Note: the given polygon color will likely not be valid for your map. Look in the `polys` folder for ways you might be able to quickly generate your polygon symbology.
+
+## If you want to Help
+
+... and you should! I won't be able to completely finish this myself, and you'll inevitably find that there are symbols you want from the FGDC standard that haven't been written out here yet. Follow the [fork my repository](https://help.github.com/articles/fork-a-repo), then make some changes, then [make a pull request](https://help.github.com/articles/using-pull-requests). Also, read these things:
+- [About CartoCSS in general](http://www.mapbox.com/tilemill/docs/manual/carto/)
+- [CartoCSS Reference](http://www.mapbox.com/carto/api/2.1.0/)
+- [FGDC Standard](http://ngmdb.usgs.gov/fgdc_gds/geolsymstd.php)
+- My Style-Guide (coming soon...)
 
 ## Progress Report:
 

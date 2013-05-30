@@ -19,7 +19,7 @@
 // Line decorations are removed when zoom level < this value
 @remove-decorations: 14;
 
-#contactsandfaults {
+.geolines {
 // >>>>>>>>>>>>>>>>>>>>>>>>> DEFAULTS = ACCURATE CONTACT <<<<<<<<<<<<<<<<<<<<<<<<<< //
   line-color: black;
   line-join: round;
