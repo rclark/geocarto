@@ -1,4 +1,4 @@
-# FGDC Cartographic Standard for Geologic Maps
+## FGDC Cartographic Standard for Geologic Maps
 
 ... has always been available in [text formats](http://ngmdb.usgs.gov/fgdc_gds/geolsymstd.php)
 
