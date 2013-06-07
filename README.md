@@ -21,17 +21,17 @@ The `svg` folder contains .svg files that provide line-decoration markers and st
         git clone https://github.com/rclark/geocarto.git
         
 5. __Setup a Project__ by running `node build-project.js`
-6. __Open TileMill__ and open there should be a "FGDC Symbols" project.
+6. __Open TileMill__ and there should be a "FGDC Symbols" project.
 7. __Add your data__ to the project. It is important that you give your layers appropriate class names.
     - Give your lines the class name `geolines`
     - Give your points the class name `structurepoints`
     - Give your polygons the class name `geopolys`
     
-*Note: the given polygon color will likely not be valid for your map. Look in the `polys` folder for ways you might be able to quickly generate your polygon symbology.
+*Note: the given polygon color will likely not be valid for your map. Take a look in the `polys` folder for ways you might be able to quickly generate your polygon symbology.
 
 ## If you want to Help
 
-... and you should! I won't be able to completely finish this myself, and you'll inevitably find that there are symbols you want from the FGDC standard that haven't been written out here yet. Follow the [fork my repository](https://help.github.com/articles/fork-a-repo), then make some changes, then [make a pull request](https://help.github.com/articles/using-pull-requests). Also, read these things:
+... and you should! I won't be able to completely finish this myself, and you'll inevitably find that there are symbols you want from the FGDC standard that haven't been written out here yet. Follow the [fork my repository](https://help.github.com/articles/fork-a-repo) instructions provided by GitHub, make some changes, and then [make a pull request](https://help.github.com/articles/using-pull-requests). Also, read these things:
 - [About CartoCSS in general](http://www.mapbox.com/tilemill/docs/manual/carto/)
 - [CartoCSS Reference](http://www.mapbox.com/carto/api/2.1.0/)
 - [FGDC Standard](http://ngmdb.usgs.gov/fgdc_gds/geolsymstd.php)
