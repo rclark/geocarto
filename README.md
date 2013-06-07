@@ -27,7 +27,10 @@ The `svg` folder contains .svg files that provide line-decoration markers and st
     - Give your points the class name `structurepoints`
     - Give your polygons the class name `geopolys`
     
-*Note: the given polygon color will likely not be valid for your map. Take a look in the `polys` folder for ways you might be able to quickly generate your polygon symbology.
+*Note: the given polygon color will likely not be valid for your map. Take a look in the `polys` folder for ways you might be able to quickly generate your polygon symbology.*
+
+## OR!
+If you want to be simple about it, just make a TileMill project and copy some of my code into your own .mss files. Make sure to grab any .svg files for the FGDC symbol rules that you're using.
 
 ## If you want to Help
 
@@ -37,7 +40,10 @@ The `svg` folder contains .svg files that provide line-decoration markers and st
 - [FGDC Standard](http://ngmdb.usgs.gov/fgdc_gds/geolsymstd.php)
 - My Style-Guide (coming soon...)
 
+If you're working with the FGDC symbol standard in some other system, keep in mind that the most time-consuming part of this project is getting the .svg files for point symbols and line decorations. If your workflow includes a step where you might be able to export .svg files, do it, and ship them over to me! I'll be really grateful.
+
 ## Progress Report:
+_This is what I've done so far..._
 
 ### Section 1: Contacts, Key Beds, and Dikes
 
