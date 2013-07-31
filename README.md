@@ -132,4 +132,14 @@ Key | Name | Notes
 9.123 | Horizontal symmetric minor fold hinge | 
 9.133 | Crenulation lineation (1st) | 
 
+### Section 12: Fluvial and Alluvial Features
+
+Key | Name | Notes
+--- | --- | --- 
+12.5 | Fluvial transport direction | May also be shown in black or other colors
+12.6 | Sediment transport direction determined from imbrication | "
+12.7 | Sediment transport direction determined from crossbeds | "
+12.8 | Sediment transport direction determined from flute casts | "
+
+
 ### So far so good...
