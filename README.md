@@ -26,6 +26,7 @@ The `svg` folder contains .svg files that provide line-decoration markers and st
     - Give your lines the class name `geolines`
     - Give your points the class name `structurepoints`
     - Give your polygons the class name `geopolys`
+    - Give your surficial points the class name `surficialpoints`
     
 *Note: the given polygon color will likely not be valid for your map. Take a look in the `polys` folder for ways you might be able to quickly generate your polygon symbology.*
 
