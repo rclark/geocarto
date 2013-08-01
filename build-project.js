@@ -20,7 +20,8 @@ var fs = require("fs"),
       "Stylesheet": [
         "geologic-lines.mss",
         "geologic-units.mss",
-        "structure-points.mss"
+        "structure-points.mss",
+        "surficial-points.mss"
       ],
       "Layer": [],
       "scale": 1,
