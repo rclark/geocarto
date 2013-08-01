@@ -132,4 +132,30 @@ Key | Name | Notes
 9.123 | Horizontal symmetric minor fold hinge | 
 9.133 | Crenulation lineation (1st) | 
 
+### Section 12: Fluvial and Alluvial Features
+
+Key | Name | Notes
+--- | --- | --- 
+12.5 | Fluvial transport direction | May also be shown in black or other colors
+12.6 | Sediment transport direction determined from imbrication | May also be shown in black or other colors
+12.7 | Sediment transport direction determined from crossbeds | May also be shown in black or other colors
+12.8 | Sediment transport direction determined from flute casts | May also be shown in black or other colors
+
+### Section 13: Glacial and Glaciofluvial Features
+
+Key | Name | Notes
+--- | --- | --- 
+13.20 | Drumlin—Showing bearing and direction of flow | Point of observation is at the midpoint of the bearing line
+13.21 | Drumlin, flow direction unknown (1st option)-Showing bearing | Point of observation is at the midpoint of the bearing line
+13.22 | Drumlin, flow direction unknown (2nd option)-Showing bearing | Point of observation is at the midpoint of the bearing line
+13.25 | Kettle | May also be shown in black or other colors
+13.29 | Younger glacial striation or groove-Showing general bearing and direction of flow | May also be shown in black or other colors
+13.30 | Younger glacial striation or groove-Showing measured bearing and direction of flow | May also be shown in black or other colors
+13.31 | Older glacial striation or groove-Showing general bearing and direction of flow | May also be shown in black or other colors
+13.32 | Older glacial striation or groove-Showing measured bearing and direction of flow | May also be shown in black or other colors
+13.33 | Younger glacial striation or groove, flow direction unknown-Showing general bearing | May also be shown in black or other colors
+13.34 | Younger glacial striation or groove, flow direction unknown-Showing measured bearing | May also be shown in black or other colors
+13.35 | Older glacial striation or groove, flow direction unknown-Showing general bearing | May also be shown in black or other colors
+13.36 | Older glacial striation or groove, flow direction unknown-Showing measured bearing. O | May also be shown in black or other colors
+
 ### So far so good...
