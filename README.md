@@ -9,6 +9,10 @@ This is useful if you want to make geologic maps in TileMill, which is useful if
 
 The `svg` folder contains .svg files that provide line-decoration markers and structural symbols. Notice that the files are named according to their respective FGDC symbol identifier.
 
+## To use the symbols in QGIS:
+
+[@Taconic_Musings](https://twitter.com/Taconic_Musings) has put together a tutorial on using custom svg symbols in QGIS with a specific focus on implementing oriented and labeled strike/dip symbols that can be seen [here](http://gmcgeology.blogspot.com/2014/05/creating-geologic-maps-in-qgis-strike.html).
+
 ## To Use this in TileMill:
 
 1. __Install [Node.js](http://nodejs.org/download/)__
